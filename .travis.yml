@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - node
+  - lts/*
+  - 10
+addons:
+  chrome: stable
+cache:
+  npm: false
+  directories:
+    - "~/.pnpm-store"
+before_install:
+  - curl -L https://unpkg.com/@pnpm/self-installer | node
+  - pnpm config set store-dir ~/.pnpm-store
+install:
+  - pnpm i --frozen-lockfile --no-verify-store-integrity
+before_script:
+  - pnpm i -g grunt-cli
+script:
+  - pnpm run coverage
+after_success:
+  - pnpm i -g codecov semantic-release
+  - codecov --disable=gcov
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+notifications:
+  email: false
