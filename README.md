@@ -2,6 +2,7 @@
 [![NPM version](https://badge.fury.io/js/grunt-chromedriver.png)](http://badge.fury.io/js/grunt-chromedriver)
 [![Build Status](https://travis-ci.org/prantlf/grunt-chromedriver.png)](https://travis-ci.org/prantlf/grunt-chromedriver)
 [![codecov](https://codecov.io/gh/prantlf/grunt-chromedriver/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/grunt-chromedriver)
+[![codebeat badge](https://codebeat.co/badges/1777e780-ea70-4ebd-8f5a-df278c5761d6)](https://codebeat.co/projects/github-com-prantlf-grunt-chromedriver-master)
 [![Dependency Status](https://david-dm.org/prantlf/grunt-chromedriver.svg)](https://david-dm.org/prantlf/grunt-chromedriver)
 [![devDependency Status](https://david-dm.org/prantlf/grunt-chromedriver/dev-status.svg)](https://david-dm.org/prantlf/grunt-chromedriver#info=devDependencies)
 [![peerDependency Status](https://david-dm.org/prantlf/grunt-chromedriver/peer-status.svg)](https://david-dm.org/prantlf/grunt-chromedriver#info=peerDependencies)
