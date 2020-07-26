@@ -47,7 +47,7 @@ grunt.loadNpmTasks('grunt-chromedriver');
 Add use the task to start and stop the browser driver before and after the tests:
 
 ```js
-grunt.registerTask('default', ['chromedriver;default:start', ..., 'chromedriver;default:stop']);
+grunt.registerTask('default', ['chromedriver:default:start', ..., 'chromedriver:default:stop']);
 ```
 
 ### Options
