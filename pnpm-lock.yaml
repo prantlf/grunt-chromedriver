@@ -5029,6 +5029,6 @@ specifiers:
   grunt-contrib-nodeunit: 2.1.0
   grunt-istanbul: 0.8.0
   grunt-standard: 3.2.0
-  portscanner: ^2.2.0
+  portscanner: 2.2.0
   tcp-port-used: 1.0.1
   webdriverio: 6.3.5
