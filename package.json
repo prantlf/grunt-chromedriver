@@ -43,7 +43,7 @@
     "grunt-istanbul": "0.8.0",
     "grunt-standard": "3.2.0",
     "tcp-port-used": "1.0.1",
-    "webdriverio": "6.3.5"
+    "webdriverio": "6.4.0"
   },
   "peerDependencies": {
     "grunt": ">=1.2.1"

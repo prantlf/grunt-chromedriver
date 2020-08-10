@@ -7,7 +7,7 @@ devDependencies:
   grunt-istanbul: 0.8.0_grunt@1.2.1
   grunt-standard: 3.2.0
   tcp-port-used: 1.0.1
-  webdriverio: 6.3.5
+  webdriverio: 6.4.0
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.4:
@@ -211,28 +211,28 @@ packages:
       node: '>=10.0.0'
     resolution:
       integrity: sha512-VbH5UnQIG/3sSMV+Y38+rOdwyK9mVA9vuL7iOngoTafHwUjL1MObfN/Cex84L4mGxIgfxCu6GV48iUmSuQ7sqA==
-  /@wdio/protocols/6.3.0:
+  /@wdio/protocols/6.3.6:
     dev: true
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-1GKzfyCTLW5WkFd3W7NLACih+zNWU7c8kFurbCQXDK1ko1obqJEs7ZjBr85q5XqMWburdks5rDjyml2iEB2LBg==
-  /@wdio/repl/6.3.0:
+      integrity: sha512-cocBRkv5sYUBxXResuxskQhIkKgDgE/yAtgMGR5wXLrtG/sMpZ2HVy6LOcOeARidAaRwbav80M2ZHjTCjPn53w==
+  /@wdio/repl/6.4.0:
     dependencies:
-      '@wdio/utils': 6.3.0
+      '@wdio/utils': 6.4.0
     dev: true
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-FT3flKOqNdZNG1uYl+QpOfdZIgKAWhLfoQ0s+wL0crLeDNIFvvM2qSDhRBRDYV7a0IFyBi8Z975WBn0dlH03Ig==
-  /@wdio/utils/6.3.0:
+      integrity: sha512-3oSRBzbWM67kng/ZqcDtFTHhTVO/fIALNqfyEEzaMb7oJ2OXgibBzjEa1r8ZhKIC8TpEAJ29BdSll4brHUhQrw==
+  /@wdio/utils/6.4.0:
     dependencies:
       '@wdio/logger': 6.0.16
     dev: true
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-PbeC5fpieamgSAHf7S58MAyraGU1qKxnHdfGMG+ZIWiIo73oo4j/57CcH6ZawQ3YC1wEc/5q+VXg7N5hvqhJOQ==
+      integrity: sha512-sAVBbgQjUmvbvkQ/EyWIUSDoebtiZewmf6wb6Pt6EZfaTm4hul30Txd+IXfazhuxp701PskwufkMWzrQIXhpKw==
   /abbrev/1.0.9:
     dev: true
     resolution:
@@ -381,20 +381,20 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-bEL/yUb/fNNiNTuUz979Z0Yg5L+LzLxGJz8x79lYmR54fmTIb6ob/hNQgkQnIUDWIFjZVQwl9Xs356I6BAMHfw==
-  /archiver/4.0.2:
+  /archiver/5.0.0:
     dependencies:
       archiver-utils: 2.1.0
       async: 3.2.0
       buffer-crc32: 0.2.13
-      glob: 7.1.6
       readable-stream: 3.6.0
+      readdir-glob: 1.0.0
       tar-stream: 2.1.3
-      zip-stream: 3.0.1
+      zip-stream: 4.0.2
     dev: true
     engines:
-      node: '>= 8'
+      node: '>= 10'
     resolution:
-      integrity: sha512-B9IZjlGwaxF33UN4oPbfBkyA4V1SxNLeIhR1qY8sRXSsbdUkEHrrOvwlYFPx+8uQeCe9M+FG6KgO+imDmQ79CQ==
+      integrity: sha512-AEWhJz6Yi6hWtN1Sqy/H4sZo/lLMJ/NftXxGaDy/TnOMmmjsRaZc/Ts+U4BsPoBQkuunTN6t8hk7iU9A+HBxLw==
   /archy/1.0.0:
     dev: true
     resolution:
@@ -885,17 +885,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Rd3se6QB+sO1TwqZjscQrurpEPIfO0/yYnSin6Q/rD3mOutHvUrCAhJub3r90uNb+SESBuE0QYoB90YdfatsRg==
-  /compress-commons/3.0.0:
+  /compress-commons/4.0.1:
     dependencies:
       buffer-crc32: 0.2.13
-      crc32-stream: 3.0.1
+      crc32-stream: 4.0.0
       normalize-path: 3.0.0
-      readable-stream: 2.3.7
+      readable-stream: 3.6.0
     dev: true
     engines:
-      node: '>= 8'
+      node: '>= 10'
     resolution:
-      integrity: sha512-FyDqr8TKX5/X0qo+aVfaZ+PVmNJHJeckFBlq8jZGSJOgnynhfifoyl24qaqdUdDIBe0EVTHByN6NAkqYvE/2Xg==
+      integrity: sha512-xZm9o6iikekkI0GnXCmAl3LQGZj5TBDj0zLowsqi7tJtEa3FMGSEcHcqrSJIrOAk1UG/NBbDn/F1q+MG/p/EsA==
   /concat-map/0.0.1:
     resolution:
       integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
@@ -952,15 +952,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-iX3mfgcTMIq3ZKLIsVFAbv7+Mc10kxabAGQb8HvjA1o3T1PIYprbakQ65d3I+2HGHt6nSKkM9PYjgoJO2KcFBQ==
-  /crc32-stream/3.0.1:
+  /crc32-stream/4.0.0:
     dependencies:
       crc: 3.8.0
       readable-stream: 3.6.0
     dev: true
     engines:
-      node: '>= 6.9.0'
+      node: '>= 10'
     resolution:
-      integrity: sha512-mctvpXlbzsvK+6z8kJwSJ5crm7yBwrQMTybJzMw1O4lLGJqjlDCXY2Zw7KheiA6XBEcBmfLx1D88mjRGVJtY9w==
+      integrity: sha512-tyMw2IeUX6t9jhgXI6um0eKfWq4EIDpfv5m7GX4Jzp7eVelQ360xd8EPXJhp2mHwLQIkqlnMLjzqSZI3a+0wRw==
   /cross-spawn/4.0.2:
     dependencies:
       lru-cache: 4.1.5
@@ -1148,12 +1148,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9Uqnzy6m6zEStluH9iyJ3iHyaQziFnMnLeC8vK0eN6smiJmIx7+yB64d67C2lH/LZra+5cGscJAJsNXO+MdPMg==
-  /devtools/6.3.4:
+  /devtools/6.4.0:
     dependencies:
       '@wdio/config': 6.1.14
       '@wdio/logger': 6.0.16
-      '@wdio/protocols': 6.3.0
-      '@wdio/utils': 6.3.0
+      '@wdio/protocols': 6.3.6
+      '@wdio/utils': 6.4.0
       chrome-launcher: 0.13.4
       puppeteer-core: 5.2.1
       ua-parser-js: 0.7.21
@@ -1162,7 +1162,7 @@ packages:
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-dOcLdArp5/dJBzD8T5wcT2YgqkA22Mkqo0OS9cXz7JkHNgwOx1FI2Bq9GvP6o0TENHifYSYg3G0K/z0bacekqg==
+      integrity: sha512-E2T+tiElHOQg2t+5L4TZwTX9krTIsTIZy9AS/DMkEv0IFUqr314fIvBbsVzo9qk0dv88E7DSf+n5GsbSrMngpA==
   /diff/1.4.0:
     dev: true
     engines:
@@ -3876,6 +3876,12 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA==
+  /readdir-glob/1.0.0:
+    dependencies:
+      minimatch: 3.0.4
+    dev: true
+    resolution:
+      integrity: sha512-km0DIcwQVZ1ZUhXhMWpF74/Wm5aFEd5/jDiVWF1Hkw2myPQovG8vCQ8+FQO2KXE9npQQvCnAMZhhWuUee4WcCQ==
   /rechoir/0.6.2:
     dependencies:
       resolve: 1.17.0
@@ -4852,30 +4858,30 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
-  /webdriver/6.3.5:
+  /webdriver/6.4.0:
     dependencies:
       '@wdio/config': 6.1.14
       '@wdio/logger': 6.0.16
-      '@wdio/protocols': 6.3.0
-      '@wdio/utils': 6.3.0
+      '@wdio/protocols': 6.3.6
+      '@wdio/utils': 6.4.0
       got: 11.5.1
       lodash.merge: 4.6.2
     dev: true
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-UN5k34+Zo2KihVoFILFSXtk0trVUbOBC5XRXY0QtYEPbgZ2hSdzhnRlj+qDVvGBiC/zjPf8IV/C6avzThd/Y+g==
-  /webdriverio/6.3.5:
+      integrity: sha512-yF5i2Wc6G+uQdEl3iAFpDPFP3xgfucUWaj6uXogEcMtq67SSIc4G9mq6vZCUF6F/GoW0H5c9F0L8ab8ZSTSX6w==
+  /webdriverio/6.4.0:
     dependencies:
       '@types/puppeteer': 3.0.1
       '@wdio/config': 6.1.14
       '@wdio/logger': 6.0.16
-      '@wdio/repl': 6.3.0
-      '@wdio/utils': 6.3.0
-      archiver: 4.0.2
+      '@wdio/repl': 6.4.0
+      '@wdio/utils': 6.4.0
+      archiver: 5.0.0
       atob: 2.1.2
       css-value: 0.0.1
-      devtools: 6.3.4
+      devtools: 6.4.0
       get-port: 5.1.1
       grapheme-splitter: 1.0.4
       lodash.clonedeep: 4.5.0
@@ -4887,12 +4893,12 @@ packages:
       resq: 1.7.1
       rgb2hex: 0.2.0
       serialize-error: 7.0.1
-      webdriver: 6.3.5
+      webdriver: 6.4.0
     dev: true
     engines:
       node: '>=10.0.0'
     resolution:
-      integrity: sha512-hPREeod6pjPmZXpHI+ixRUeaVr/Ce2AwBfyttQlvL0GmsRgYSHKs5Dy7VWlvXmGhH/ahIJCOY0tccUPTXcGJPQ==
+      integrity: sha512-dtttlqvOLp5tCvCvT/A9Slau/W+9d2VtaMsL8awF9lPpjKMRBXRfD541CqU8fxnIl1XszqAAvcXdTJkqgtGPyg==
   /which-module/2.0.0:
     dev: true
     resolution:
@@ -5013,16 +5019,16 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
-  /zip-stream/3.0.1:
+  /zip-stream/4.0.2:
     dependencies:
       archiver-utils: 2.1.0
-      compress-commons: 3.0.0
+      compress-commons: 4.0.1
       readable-stream: 3.6.0
     dev: true
     engines:
-      node: '>= 8'
+      node: '>= 10'
     resolution:
-      integrity: sha512-r+JdDipt93ttDjsOVPU5zaq5bAyY+3H19bDrThkvuVxC0xMQzU1PJcS6D+KrP3u96gH9XLomcHPb+2skoDjulQ==
+      integrity: sha512-TGxB2g+1ur6MHkvM644DuZr8Uzyz0k0OYWtS3YlpfWBEmK4woaC2t3+pozEL3dBfIPmpgmClR5B2QRcMgGt22g==
 specifiers:
   chromedriver: 84.0.1
   grunt: 1.2.1
@@ -5031,4 +5037,4 @@ specifiers:
   grunt-standard: 3.2.0
   portscanner: 2.2.0
   tcp-port-used: 1.0.1
-  webdriverio: 6.3.5
+  webdriverio: 6.4.0

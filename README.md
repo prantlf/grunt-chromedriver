@@ -13,7 +13,7 @@ Controls Chrome or Chromium using the WebDriver interface via chromedriver witho
 
 If you use a modern test driver like [webdriverio], you will not need [Selenium] to run the tests, because the browser driver itself implements the [WebDriver] interface. This module provides a [Grunt] multi-task for installing, starting and stopping the [chromedriver] executable. You take care of installing Chrome or Chromium.
 
-This task and [grunt-geckodriver] can be used as a replacement for [grunt-selenium-standalone] for tasks like [grunt-html-dom-snapshot], to simplify the whole scenario by removing [Selenium] and [Java] from the requirements.
+This task, [grunt-geckodriver] and [grunt-safaridriver] can be used as a replacement for [grunt-selenium-standalone] for tasks like [grunt-html-dom-snapshot], to simplify the whole scenario by removing [Selenium] and [Java] from the requirements.
 
 ## Installation
 
@@ -130,7 +130,7 @@ your code using Grunt.
 
 ## License
 
-Copyright (c) 2017-2020 Ferdinand Prantl
+Copyright (c) 2020 Ferdinand Prantl
 
 Licensed under the MIT license.
 
@@ -147,3 +147,4 @@ Licensed under the MIT license.
 [grunt-html-dom-snapshot]: https://github.com/prantlf/grunt-html-dom-snapshot#readme
 [grunt-selenium-standalone]: https://github.com/zs-zs/grunt-selenium-standalone#readme
 [grunt-geckodriver]: https://github.com/prantlf/grunt-geckodriver#readme
+[grunt-safaridriver]: https://github.com/prantlf/grunt-safardriver#readme
