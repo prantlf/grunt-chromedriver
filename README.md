@@ -1,13 +1,10 @@
 # grunt-chromedriver
-[![NPM version](https://badge.fury.io/js/grunt-chromedriver.png)](http://badge.fury.io/js/grunt-chromedriver)
-[![Build Status](https://travis-ci.org/prantlf/grunt-chromedriver.png)](https://travis-ci.org/prantlf/grunt-chromedriver)
-[![codecov](https://codecov.io/gh/prantlf/grunt-chromedriver/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/grunt-chromedriver)
-[![codebeat badge](https://codebeat.co/badges/1777e780-ea70-4ebd-8f5a-df278c5761d6)](https://codebeat.co/projects/github-com-prantlf-grunt-chromedriver-master)
-[![Dependency Status](https://david-dm.org/prantlf/grunt-chromedriver.svg)](https://david-dm.org/prantlf/grunt-chromedriver)
-[![devDependency Status](https://david-dm.org/prantlf/grunt-chromedriver/dev-status.svg)](https://david-dm.org/prantlf/grunt-chromedriver#info=devDependencies)
-[![peerDependency Status](https://david-dm.org/prantlf/grunt-chromedriver/peer-status.svg)](https://david-dm.org/prantlf/grunt-chromedriver#info=peerDependencies)
 
-[![NPM Downloads](https://nodei.co/npm/grunt-chromedriver.png?downloads=true&stars=true)](https://www.npmjs.com/package/grunt-chromedriver)
+[![Latest version](https://img.shields.io/npm/v/grunt-chromedriver)
+ ![Dependency status](https://img.shields.io/librariesio/release/npm/grunt-chromedriver)
+](https://www.npmjs.com/package/grunt-chromedriver)
+[![Coverage](https://codecov.io/gh/prantlf/grunt-chromedriver/branch/master/graph/badge.svg)](https://codecov.io/gh/prantlf/grunt-chromedriver)
+[![codebeat badge](https://codebeat.co/badges/1777e780-ea70-4ebd-8f5a-df278c5761d6)](https://codebeat.co/projects/github-com-prantlf-grunt-chromedriver-master)
 
 Controls Chrome or Chromium using the WebDriver interface via chromedriver without Selenium.
 
