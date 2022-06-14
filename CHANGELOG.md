@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/prantlf/grunt-chromedriver/compare/v0.0.3...v0.0.4) (2022-06-14)
+
+
+### Bug Fixes
+
+* Upgrade chromedriver to 102 ([eed11ef](https://github.com/prantlf/grunt-chromedriver/commit/eed11efb4be81e484da3c311a066617ff2813b28))
+
 ## [0.0.3](https://github.com/prantlf/grunt-chromedriver/compare/v0.0.2...v0.0.3) (2021-02-08)
 
 ### Bug Fixes
