@@ -34,7 +34,7 @@
     "coverage": "grunt instrument && grunt --coverage"
   },
   "dependencies": {
-    "chromedriver": "88.0.0",
+    "chromedriver": "102.0.0",
     "portscanner": "2.2.0"
   },
   "devDependencies": {
