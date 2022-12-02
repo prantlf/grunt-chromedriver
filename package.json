@@ -1,7 +1,7 @@
 {
   "name": "grunt-chromedriver",
   "description": "Controls Chrome or Chromium using the WebDriver interface via chromedriver without Selenium.",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "homepage": "https://github.com/prantlf/grunt-chromedriver#readme",
   "author": {
     "name": "Ferdinand Prantl",
