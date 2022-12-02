@@ -144,4 +144,4 @@ Licensed under the MIT license.
 [grunt-html-dom-snapshot]: https://github.com/prantlf/grunt-html-dom-snapshot#readme
 [grunt-selenium-standalone]: https://github.com/zs-zs/grunt-selenium-standalone#readme
 [grunt-geckodriver]: https://github.com/prantlf/grunt-geckodriver#readme
-[grunt-safaridriver]: https://github.com/prantlf/grunt-safardriver#readme
+[grunt-safaridriver]: https://github.com/prantlf/grunt-safaridriver#readme
