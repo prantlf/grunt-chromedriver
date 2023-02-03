@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/prantlf/grunt-chromedriver/compare/v1.0.0...v2.0.0) (2023-02-03)
+
+
+### Bug Fixes
+
+* Upgrade chromedriver to 109 ([65c69c6](https://github.com/prantlf/grunt-chromedriver/commit/65c69c652502c377addcdb1630a6f0231f59975f))
+
+
+### BREAKING CHANGES
+
+* Only Chrome 109 or newer is supported.
+
 # [1.0.0](https://github.com/prantlf/grunt-chromedriver/compare/v0.0.4...v1.0.0) (2022-12-02)
 
 ### Bug Fixes
